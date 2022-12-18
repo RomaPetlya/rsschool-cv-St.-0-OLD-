@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
-	<script src="https://kit.fontawesome.com/d14ce6c39e.js" crossorigin="d14ce6c39e"></script>
+	<script src="https://kit.fontawesome.com/d14ce6c39e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -186,11 +186,11 @@ function eqSumPowdig(hMax, exp) {
    let result = [];
    let n = 0;
 
-    for (j = 2; j <= hMax; j++) {
+    for (j = 2; j &lt= hMax; j++) {
 	  j = String(j); 
 	  arr = Array.from(j);
 										
-	    for (i = 0; i < arr.length; ++i) {
+	    for (i = 0; i &lt arr.length; ++i) {
 		   n += arr[i]**exp;
 		} 
 		if (n == j)  {
