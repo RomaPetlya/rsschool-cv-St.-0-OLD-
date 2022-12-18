@@ -1,1 +1,1 @@
-# rsschool-cv
+https://RomaPetlya.github.io/rsschool-cv/
